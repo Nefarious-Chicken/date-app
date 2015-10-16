@@ -2,6 +2,9 @@
   "name": "dateclient",
   "version": "1.0.0",
   "description": "dateClient: An Ionic project",
+  "scripts": {
+    "postinstall": "node node_modules/bower/bin/bower install"
+  },
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
